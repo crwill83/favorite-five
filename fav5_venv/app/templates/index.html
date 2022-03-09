@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>MY FAVORITE FIVE</h2>
+<a class="nav-item nav-link active" href="{{ url_for('firstFive') }}">FOODS<span class="sr-only">(current)</span></a>
+<a class="nav-item nav-link active" href="{{ url_for('secondFive') }}">MOVIES<span class="sr-only">(current)</span></a>
+<a class="nav-item nav-link active" href="{{ url_for('thirdFive') }}">PLACES<span class="sr-only">(current)</span></a>
+<a class="nav-item nav-link active" href="{{ url_for('fourthFive') }}">KIDS<span class="sr-only">(current)</span></a>
+<a class="nav-item nav-link active" href="{{ url_for('fifthFive') }}">GAMES</a>
+
+{% endblock content %}
